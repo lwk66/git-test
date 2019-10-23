@@ -10,4 +10,9 @@ public class testGit {
         System.out.println("testGit");
         System.out.println("testGit");
     }
+
+    public int test(){
+        return Integer.MAX_VALUE;
+    }
+
 }
