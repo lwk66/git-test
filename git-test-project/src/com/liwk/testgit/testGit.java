@@ -9,10 +9,16 @@ public class testGit {
         System.out.println("testGit");
         System.out.println("testGit");
         System.out.println("testGit");
+        System.out.println("testGit");
+        System.out.println(test());
+        System.out.println(test2());
     }
 
-    public int test(){
+    static int test(){
         return Integer.MAX_VALUE;
+    }
+    static long test2(){
+        return Long.MAX_VALUE;
     }
 
 }
